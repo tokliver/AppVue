@@ -4,9 +4,8 @@
     <b-container class="bv-example-row">
        <b-row>
           <b-col sm="6" offset="3">
-              
+              <v-if
               <QuestionBox :currentQuestion="questions[index]"
-              v-if="questions.length "
                :next="next"/>
             </b-col>
           

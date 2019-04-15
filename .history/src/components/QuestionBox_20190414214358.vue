@@ -26,8 +26,8 @@ export default{
       currentQuestion:Object,
       next:Function
    },
-   mounted(){
-      console.log(this.currentQuestion)
+   mounted:{
+      
    }
 }
 </script>
